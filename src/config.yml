@@ -1,0 +1,4 @@
+# Boolean value, players will run rightclickcommand when they right click with a pickaxe if true
+rightclickenabled: true
+# Command to be run when players right click a pickaxe, omit first slash in command, e.g. to run /version, set to version
+rightclickcommand: version
