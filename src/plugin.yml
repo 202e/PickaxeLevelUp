@@ -3,3 +3,7 @@ version: 1.0.0
 author: 202e
 main: io.github._202e.pickaxelevelup.PickaxeLevelUp
 api-version: 1.12
+commands:
+  levelup:
+    description: Increases efficiency level of held item. Requires op to run.
+    usage: "§cUsage: /<command> (must be op and holding pickaxe)"

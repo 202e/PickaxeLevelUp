@@ -1,5 +1,6 @@
 package io.github._202e.pickaxelevelup;
 
+import io.github._202e.pickaxelevelup.commands.CommandLevelUp;
 import org.bukkit.Material;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -20,5 +21,7 @@ public class PickaxeLevelUp extends JavaPlugin {
         this.rightClickCommand = getConfig().getString("rightclickcommand");
 
         getServer().getPluginManager().registerEvents(new PLUListener(this), this);
+
+        getCommand("levelup").setExecutor(new CommandLevelUp());
     }
 }
